@@ -32,8 +32,8 @@ const Navbar = () => {
                 </li>
 
                 <li onClick={() => setMenu('womens')}>
-                    <Link style={{textDecoration: 'none'}} to='/women'>Women</Link> 
-                    { menu === 'women' ? <hr /> : <React.Fragment /> }
+                    <Link style={{textDecoration: 'none'}} to='/womens'>Women</Link> 
+                    { menu === 'womens' ? <hr /> : <React.Fragment /> }
                 </li>
                 <li onClick={() => setMenu('kids')}>
                     <Link style={{textDecoration: 'none'}} to='/kids'>Kids</Link>
